@@ -35,3 +35,6 @@ $(".step05").click( function() {
 	$(".analysis").addClass("active").siblings().removeClass("active");
 });
 
+var video = document.getElementById("Video");
+video.muted = true;
+video.play();
