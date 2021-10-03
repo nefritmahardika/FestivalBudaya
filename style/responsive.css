@@ -27,8 +27,12 @@
 @media screen and (max-width:768px){
 .foot{
     flex-direction: column;
-    font-size: 80%;
+font-size: 15px;
 padding: 40px;
+}
+.bottom p{
+    width: 80%;
+    font-size: 15px;
 }
     .hamburger{
         display: flex;
